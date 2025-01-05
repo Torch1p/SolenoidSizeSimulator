@@ -1,7 +1,7 @@
 import femm
 import math
 
-filePath = 'C:/Users/matis/Documents/MakerPortfolio/Code'
+filePath = ''
 results = []
 
 # Given constants
@@ -109,7 +109,7 @@ while length <= lengthMAX:
         femm.mi_makeABC()
 
     
-        femm.mi_saveas("C:/Users/matis/Documents/MakerPortfolio/Code/ZPDBEST.fem")
+        femm.mi_saveas(" ")
         femm.mi_analyze()
         femm.mi_loadsolution()
 
